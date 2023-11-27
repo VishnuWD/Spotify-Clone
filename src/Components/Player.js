@@ -1,8 +1,17 @@
 import React from 'react'
+import Sidebar from './Sidebar'
+import Body from './Body'
+import Footer from './Footer'
 
-const Player = () => {
+const Player = ({spotify}) => {
   return (
-    <div>we are logged in</div>
+    <div>
+      <div className='flex'>
+       <Sidebar />
+       <Body spotify={spotify}/>
+      </div>
+      <Footer />
+    </div>
   )
 }
 

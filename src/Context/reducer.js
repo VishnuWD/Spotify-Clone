@@ -4,7 +4,7 @@ export const initialState = {
     playing:false,
     item:null,
     // remove token after developing
-    // token:"BQDcqBnihuXvZjBdpZWob_vyhsxptce8V2mZYeIcmBoM65OMod_Xp2iB4QWfYBm9BZmjplfOe2UX6yOpnwjDvUpfSTqGUcj7CAvbXU-jtInxz5ARzKpCXeB-E2dSpmHZ-ga4see2kNDz66EueAtIdhc-K9t0q41jzAfl4vSYiIJgO3_wILFcFqw7VsvvpaTzjsWc1Ewn3KHMeqhiZKBm",
+    token:null,
 }
 
 const reducer = (state, action) => {
